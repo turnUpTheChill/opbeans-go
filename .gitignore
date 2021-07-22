@@ -1,5 +1,6 @@
 opbeans-go
 .idea/
+.env
 
 # For the BATS testing
 bats/
