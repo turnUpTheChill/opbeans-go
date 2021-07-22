@@ -16,7 +16,7 @@ docker-compose up
 ## Running with Elastic Cloud
 
 0. Start Elastic Cloud [trial](https://www.elastic.co/cloud/elasticsearch-service/signup) (if you don't have it yet)
-1. Add environmental variables `ELASTIC_CLOUD_ID` and `ELASTIC_CLOUD_CREDENTIALS` (in format `login:password`)
+1. Add environmental variables `ELASTIC_APM_SERVER_URL`, `ELASTIC_APM_JS_SERVER_URL` and `ELASTIC_APM_SECRET_TOKEN` to the `.env` file. 
 2. Run
 ```bash
 docker-compose -f docker-compose-elastic-cloud.yml up
